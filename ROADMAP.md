@@ -1,9 +1,9 @@
 # Roadmap — Billfold
 
-_Last updated: 2026-11-01 — current as of: v1 built, deploying to Pages._
+_Last updated: 2026-11-01 — current as of: v1 built and live on Pages._
 
 ## Now (in flight)
-- Publish to GitHub Pages and confirm the live URL works.
+- Nothing in flight. v1 is live; pick the next feature from "Next" below.
 
 ## Next (v1.x / near-term)
 - **Reminders that actually fire** — browser Notifications API (opt-in) using the
@@ -27,6 +27,8 @@ _Last updated: 2026-11-01 — current as of: v1 built, deploying to Pages._
 - **CSV import** (CSV export already exists).
 
 ## Done (recent)
+- Published to GitHub Pages: repo `sjaggala/billfold` (public), live at
+  https://sjaggala.github.io/billfold/. (2026-11-01)
 - v1 app: bills CRUD + recurrence, categories/subcategories, cards/accounts,
   home, detail with history + next cycle, mark-as-paid, settings, JSON/CSV
   export, JSON import, sample data. (2026-11-01)

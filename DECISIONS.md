@@ -6,6 +6,17 @@ Newest first. Never delete an entry; mark it superseded instead.
 
 ---
 
+### 2026-11-01 — Public repo for a "private" tracker
+- **Decision:** Host on a **public** GitHub repo (`sjaggala/billfold`), served via
+  Pages from `main` / root.
+- **Why:** Free GitHub Pages requires a public repo; a private-repo Pages site
+  needs a paid plan. The app is "private" in the sense that all data lives in the
+  browser's `localStorage` and is never committed, so a public repo exposes only
+  the app code and docs, not any bills or financial data.
+- **Rejected:** Private repo — would need a paid plan for Pages, for no privacy
+  gain since no personal data is in the repo.
+- **Status:** active
+
 ### 2026-11-01 — Vanilla single-file app, no framework or build
 - **Decision:** Build the whole app as one `index.html` with inline CSS and
   vanilla JS.

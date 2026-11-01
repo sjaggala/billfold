@@ -1,6 +1,6 @@
 # Billfold — Bills Tracker
 
-_Last updated: 2026-11-01 — current as of: v1 shipped; single-file app complete and verified, ready to deploy to GitHub Pages._
+_Last updated: 2026-11-01 — current as of: v1 shipped and LIVE on GitHub Pages at https://sjaggala.github.io/billfold/ (repo sjaggala/billfold)._
 
 ## What this is
 A private, personal bills tracker. One self-contained `index.html` (vanilla
@@ -14,8 +14,8 @@ history + next cycle and "mark as paid", settings, and JSON/CSV export + import.
 Data persists in `localStorage`. Smoke-tested headless with no JS errors.
 
 ## Current focus
-Deploying to GitHub Pages. No open code work. Next candidate features are in
-`ROADMAP.md`.
+Deployed and live on GitHub Pages (repo `sjaggala/billfold`, branch `main`,
+root). No open code work. Next candidate features are in `ROADMAP.md`.
 
 ## Where everything lives
 - `index.html` — the entire app (styles, markup scaffolding, and all logic).
